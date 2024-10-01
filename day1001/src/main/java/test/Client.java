@@ -11,7 +11,7 @@ public class Client {
 
 		phone.powerOn();
 		phone.powerOff();
-		factory.close();
+		factory.close();  
 	}
 
 }
