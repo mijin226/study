@@ -10,7 +10,7 @@ public class Client {
 		Phone phone = (Phone) factory.getBean(args[0]);
 
 		phone.powerOn();
-		phone.powerOff();
+		phone.powerOff();  
 		factory.close();  
 	}
 
