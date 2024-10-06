@@ -3,10 +3,10 @@
    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
    xsi:schemaLocation="http://www.springframework.org/schema/beans
                   http://www.springframework.org/schema/beans/spring-beans.xsd">
-   
+
   <bean class="test1002.IPhone" id="apple">
-  	<constructor-arg ref="aw" />
-  	<constructor-arg value="1234" /></bean>
+  	<property name = "watch" ref="aw" />
+  	<property name = "num" value="1234" /></bean>
    <bean class="test1002.GalaxyPhone" id="samsung"/> <!--//해당 클래스 아이디 samsung -->
 
 <bean class ="test1002.AppleWatch" id="aw"/>
